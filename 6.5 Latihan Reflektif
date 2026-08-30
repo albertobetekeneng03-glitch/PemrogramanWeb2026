@@ -1,0 +1,14 @@
+6.5 Latihan Reflektif
+Sebagai latihan mandiri, coba bandingkan sendiri form ini dengan form buku dan jawab pertanyaan
+berikut untuk menguji pemahaman:
+1. Kenapa field "Alamat" dan "No. HP" tidak diberi required, sedangkan "Nama" dan "No.
+Anggota" diberi?
+2. Apa yang akan terjadi (di browser) kalau kamu klik tombol "Simpan" tanpa mengisi field
+"Nama"? Coba buka filenya di browser dan praktikkan.
+3. Form ini juga belum punya action pada tag <form>-nya — apa dampaknya saat tombol
+"Simpan" ditekan?
+
+JAWAB
+1. Alamat dan No. HP tidak diberi required karena kedua field tersebut bersifat opsional, sedangkan Nama dan No. Anggota wajib diisi sebagai data utama anggota.
+2. Jika Nama tidak diisi, browser akan mencegah form dikirim dan menampilkan peringatan bahwa field tersebut wajib diisi karena menggunakan atribut required.
+3.  atribut action, form akan dikirim ke halaman/URL saat ini. Namun, karena belum ada program pemroses, data belum akan tersimpan ke database atau tempat lain.
